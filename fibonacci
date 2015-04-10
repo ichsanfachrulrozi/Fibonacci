@@ -1,4 +1,3 @@
-
 package jurnal.pkg1;
 
 import java.util.*;
@@ -18,11 +17,14 @@ public class Jurnal1 {
         {
             fibo[x]=fibo[x-1] + fibo[x-2];
         }
-        
+        int y=0;
         for (int x=0;x<input;x++)
         {
             System.out.print(fibo[x]+" ");
+            y=y+fibo[x];
         }
+        System.out.println("Hasil");
+        System.out.println(y);
     }
     
 }
